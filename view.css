@@ -1,0 +1,685 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:#3E7A81 ;
+    position: relative;
+    height: 500px;
+    
+    
+}
+header img{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top:100px;
+    left: 0px;
+    
+}
+header h1{
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    top:120px;
+    left: 360px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 56px;
+    font-weight: 700px;
+    
+}
+.div1 {
+    background-color: white;
+    padding:15px;
+    height: 60px;
+    border:1px solid black ;
+    position: absolute;
+    top:250px;
+    left:400px;
+    width: 37%;
+    border-radius: 6%;
+}
+.div1 input{
+    border: none;
+    outline: none;
+}
+
+.div1  button{
+    background-color: red;
+    padding:5px;
+    color: white;
+    float:right;
+    
+}
+.div2 a:hover{
+    background-color: white;
+    color:black;
+    
+}
+.div2{
+    position: absolute;
+    top:350px;
+    left:400px;
+
+}
+.div2 a{
+    padding:10px;
+    border: 1px solid white;
+    border-radius: 20%;
+    color:white;
+    text-decoration: none;
+    
+
+}
+.fa-magnifying-glass{
+    height: 20px;
+}
+.main{
+    width: 100%;
+    padding-left: 20px;
+}
+main h1{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 600px;
+}
+main  a{
+    float: right;
+    text-decoration: none;
+    color: black;
+
+    
+}
+main  a:hover{
+    text-decoration: underline;
+}
+main section{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+    
+}
+main section a img{
+    background-color: #EEF1F6;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+   
+}
+
+main section a{
+    
+    width:20%;
+    padding: 10px;
+    margin:20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+
+    
+    
+}
+article{
+    position:relative;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    
+
+}
+article h1{
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 600px;
+}
+.fa-star{
+    color:#FC9331;
+    width:10px;
+    height:10px;
+}
+article p{
+    color: #616669;
+}
+
+.left{
+    width: 30%;
+    background-color: #EEF1F6;
+}
+.right .imglf{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 20px;
+
+}
+.right h2{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 600px;
+}
+.imglf p{
+    padding-right: 8px;
+}
+
+
+.imglf h4:hover{
+    text-decoration:underline;
+}
+.right{
+    width: 40%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+
+    
+   
+    
+}
+
+
+
+.imgrh{
+    width:50%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+.right a{
+    position: absolute;
+    right: 0px;
+}
+article  a{
+    position: absolute;
+    right:300px;
+    text-decoration: none;
+    color: black;
+    
+}
+article a:hover{
+    text-decoration: underline;
+}
+container{
+    width:100%;
+}
+container h1{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 600px;
+}
+container div{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:30px;
+  
+
+}
+
+
+container span span{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+container a{
+    position: absolute;
+    right:0px;
+    top:1125px;
+    text-decoration: none;
+    color: black;
+}
+container a:hover{
+    text-decoration: underline;
+}
+
+
+
+.cleaning{
+    position: absolute;
+    top: 1380px;
+    color: white;
+    left:30px;
+}
+.Handy{
+    position: absolute;
+    top: 1380px;
+    color: white;
+    left:440px;
+}
+.Fence{
+    position: absolute;
+    top: 1380px;
+    color: white;
+    left:870px;
+}
+.center{
+    justify-content:center;
+}
+.num1{
+    position: absolute;
+    top: 1440;
+    left:50px;
+}
+.num2{
+    position: absolute;
+    top: 1440;
+    left:450px;
+}
+.num3{
+    position: absolute;
+    top: 1440;
+    left:890px;
+}
+.from1{
+    position: absolute;
+    top: 1440;
+    left:150px;
+}
+.from2{
+    position: absolute;
+    top: 1440;
+    left:550px;
+}
+.from3{
+    position: absolute;
+    top: 1440;
+    left:990px;
+}
+container button{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius:20% ;
+}
+container button:hover{
+    background-color: black;
+    color: white;
+}
+.btn1{
+position:absolute;
+top:1440px;
+left:320px;
+}
+.btn2{
+position: absolute;
+top:1440px;
+left:750px
+}
+.btn3{
+position: absolute;
+top:1440px;
+left: 1150px;
+}
+.expert{
+
+    width: 100%;
+    height: 400px;
+    background-color:#F6F6EB;
+}
+
+.expert section {
+    
+    display: inline;
+    
+    
+}
+.expert section p{
+    color:rgb(51, 43, 43);
+}
+.expert section .expert1{
+    display: inline-block;
+    width: 40%;
+}
+.expert a{
+    position:absolute;
+    right:0px;
+    text-decoration: none;
+    color: black;
+    
+}
+.expert a:hover{
+    text-decoration: underline;
+}
+/*.how{
+    width: 100%;
+    height: 200px;
+   
+    
+}
+.work{
+ display: inline;
+}
+.work span{
+    display: inline-block;
+}*/
+.how{
+    display:flex;
+    flex:wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+.work{
+    display:flex;
+    flex:wrap;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.how h1{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 600px;
+}
+.how p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color:rgb(56, 51, 51);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.business{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 400px;
+    
+}
+.business .left{
+
+    width: 50%;
+    background-color: #3E7A81;
+    
+    
+
+}
+.business h1{
+    
+    font-family: Inter,sans-serif;
+    font-weight: 600px;
+    height: 40px;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 2150px;
+    left:100px;
+
+}
+
+.business a{
+    font-weight: 500px;
+    font-size: 16px;
+    height: 30px;
+    text-decoration: none;
+    width: 120px;
+    
+    
+    
+    
+}
+#left{
+    border: 1px solid transparent;
+    background-color: rgb(238, 80, 80);
+    color: white;
+    position: absolute;
+    top: 2250px;
+    left:100px;
+
+
+    
+}
+#left:hover{
+    background-color: red;
+}
+#right{
+    border: 1px solid white;
+    
+    color: white;
+    position: absolute;
+    top: 2250px;
+    left:300px;
+}
+#right:hover{
+    color:black;
+    background-color: white;
+}
+
+
+
+.App{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 400px;
+
+    
+}
+.App .left{
+
+    width: 50%;
+    background-color: #FBEEEE;
+    
+    
+
+}
+.App .right{
+    width: 50%;
+    background-color: #FBEEEE;
+}
+.App h2{
+    
+    font-family: Inter,sans-serif;
+    font-weight: 600px;
+    height: 40px;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 2550px;
+    left:140px;
+
+
+}
+.App p{
+    position: absolute;
+    top: 2600px;
+    left:140px;
+    color: #625F86;
+}
+.App .left img{
+   
+    
+
+}
+.App a{
+    font-weight: 500px;
+    font-size: 16px;
+    height: 30px;
+    text-decoration: none;
+    width: 120px;
+   
+}
+
+#app{
+    border: 1px solid transparent;
+    background-color:black;
+    color: white;
+    position: absolute;
+    top: 2650px;
+    left:130px;
+
+
+    
+}
+
+
+#google{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 2650px;
+    left:280px;
+}
+.references{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.references h1{
+    font-family: sans-serif;
+    font-weight: 600px;
+    font-size: 32px;
+}
+
+.references section span{
+    display: inline-block;
+    width: 40%;
+}
+.references h4{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.references h4:hover{
+    text-decoration: underline;
+}
+
+.references section span button{
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    border-radius: 20%;
+    padding:15px;
+}
+.references section span button:hover{
+    color: white;
+    background-color:black;
+
+}
+/*.common div{
+    display:flex;
+    flex:wrap;
+    flex-direction: row;
+}*/
+/*.references .common{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 20px;
+    width:33%;
+}
+
+.references p{
+    padding-right: 8px;
+}
+
+
+.references button:hover{
+    text-decoration:underline;
+}
+.references{
+    width: 40%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+
+    
+   
+    
+}*/
+.footer{
+    padding:30px;
+    background-color:#111827 ;
+    
+    
+}
+.footer .one {
+color:white;
+position:relative;
+
+
+
+}
+
+/*.two{
+    position: absolute;
+    left:250px;
+    bottom:20px;
+}*/
+.two{
+    width:100%;
+}
+.two div{
+    display:flex;
+    flex:wrap;
+    flex-direction: row;
+    width:5%;
+}
+
+.Subscribe{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+    color:white;
+}
+.footer button{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500px;
+    padding: 15px;
+    background-color: rgb(238, 80, 80);
+    color: white;
+    border: 1 solid white;
+    border-radius: 20%;
+}
+.footer button:hover{
+background-color: red;
+}
+.help{
+
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #9CA3AF;
+    
+}
+.footer a{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+    color:white;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+    
+}
+#search{
+    background-color: red;
+}
+
